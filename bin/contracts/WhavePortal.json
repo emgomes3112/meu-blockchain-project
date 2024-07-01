@@ -1,0 +1,199 @@
+{
+    "contractName": "WhavePortal",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/contracts/WavePortal.sol\":\"WhavePortal\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/contracts/WavePortal.sol\":{\"keccak256\":\"0xc85be04eb9c2617392623fd31a060c37d71c784b7d4c59090c3a0118c451052d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7c4c8bbce388541226b8999a9f316c64c37a2ebc46cf493e5b560a083013569b\",\"dweb:/ipfs/QmTHHs2253sP7KrfB4Gwd6eFVQ51ktSStSRZWQvZZNvLig\"]},\"c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/node_modules/hardhat/console.sol\":{\"keccak256\":\"0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395\",\"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4\"]}},\"version\":1}",
+    "bytecode": "608060405234801561000f575f80fd5b506100316040518060600160405280602d815260200161016c602d9139610036565b6100e7565b61007d8160405160240161004a91906100b2565b60408051601f198184030181529190526020810180516001600160e01b0390811663104c13eb60e21b1790915261008016565b50565b61007d8161009360201b6100081760201c565b5f6a636f6e736f6c652e6c6f6790505f80835160208501845afa505050565b602081525f82518060208401528060208501604085015e5f604082850101526040601f19601f83011684010191505092915050565b6079806100f35f395ff3fe60806040525f80fd5b5f6a636f6e736f6c652e6c6f6790505f80835160208501845afa505050565b602d602f565b565b634e487b7160e01b5f52605160045260245ffdfea26469706673582212208a08614bfcef9ba83144c48c2b5193220ba7700955de0ea9760ef1559e1bf55064736f6c634300081a0033556562612c20657520736f7520756d20636f6e747261746f206520657520736f7520696e74656c6967656e7465",
+    "deployedBytecode": "60806040525f80fd5b5f6a636f6e736f6c652e6c6f6790505f80835160208501845afa505050565b602d602f565b565b634e487b7160e01b5f52605160045260245ffdfea26469706673582212208a08614bfcef9ba83144c48c2b5193220ba7700955de0ea9760ef1559e1bf55064736f6c634300081a0033",
+    "sourceMap": "175:124:0:-:0;;;203:93;;;;;;;;;;228:60;;;;;;;;;;;;;;;;;;:11;:60::i;:::-;175:124;;6070:121:1;6125:59;6180:2;6141:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;6141:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;6141:42:1;;;-1:-1:-1;;;6141:42:1;;;;6125:15;:59;:::i;:::-;6070:121;:::o;851:129::-;922:51;965:7;934:29;;;;;922:51;;:::i;180:463::-;265:22;131:42;265:40;;594:1;571;541:7;535:14;510:2;501:7;497:16;461:14;434:5;402:211;381:246;367:270;180:463;:::o;14:418:2:-;163:2;152:9;145:21;126:4;195:6;189:13;238:6;233:2;222:9;218:18;211:34;297:6;292:2;284:6;280:15;275:2;264:9;260:18;254:50;353:1;348:2;339:6;328:9;324:22;320:31;313:42;423:2;416;412:7;407:2;399:6;395:15;391:29;380:9;376:45;372:54;364:62;;;14:418;;;;:::o;437:127::-;175:124:0;;;;;;",
+    "deployedSourceMap": "175:124:0:-:0;;;;;;180:463:1;265:22;131:42;265:40;;594:1;571;541:7;535:14;510:2;501:7;497:16;461:14;434:5;402:211;381:246;367:270;180:463;:::o;-1:-1:-1:-;;;:::i;:::-;:::o;14:127:2:-;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15",
+    "sourcePath": "c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/contracts/WavePortal.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.26+commit.8a97fa7a"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/contracts/WavePortal.sol",
+        "exportedSymbols": {
+            "WhavePortal": [
+                13
+            ],
+            "console": [
+                8098
+            ]
+        },
+        "id": 14,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".24"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "35:24:0"
+            },
+            {
+                "absolutePath": "c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/node_modules/hardhat/console.sol",
+                "file": "c:/Users/emgom/Desktop/Projetos BlockChain/meu-blockchain-project/node_modules/hardhat/console.sol",
+                "id": 2,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 14,
+                "sourceUnit": 8099,
+                "src": "63:108:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "WhavePortal",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "internalFunctionIDs": {
+                    "29": 1
+                },
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "WhavePortal",
+                "nameLocation": "184:11:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "217:79:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "556562612c20657520736f7520756d20636f6e747261746f206520657520736f7520696e74656c6967656e7465",
+                                                "id": 8,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "240:47:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_e3c1dfcf9a36c27bd9f223ed0abcb981efa4e49bc9b222ee2e58336b46c6bc78",
+                                                    "typeString": "literal_string \"Ueba, eu sou um contrato e eu sou inteligente\""
+                                                },
+                                                "value": "Ueba, eu sou um contrato e eu sou inteligente"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_e3c1dfcf9a36c27bd9f223ed0abcb981efa4e49bc9b222ee2e58336b46c6bc78",
+                                                    "typeString": "literal_string \"Ueba, eu sou um contrato e eu sou inteligente\""
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 5,
+                                                "name": "console",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 8098,
+                                                "src": "228:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_contract$_console_$8098_$",
+                                                    "typeString": "type(library console)"
+                                                }
+                                            },
+                                            "id": 7,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberLocation": "236:3:0",
+                                            "memberName": "log",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 629,
+                                            "src": "228:11:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_internal_pure$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory) pure"
+                                            }
+                                        },
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "228:60:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 10,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "228:60:0"
+                                }
+                            ]
+                        },
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "214:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "217:0:0"
+                        },
+                        "scope": 13,
+                        "src": "203:93:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "175:124:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "35:264:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "24200",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "meu-blockchain-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "glob": "^10.4.2",
+    "hardhat": "^2.22.5",
+    "inflight": "^1.0.6",
+    "rimraf": "^5.0.7"
+  }
+}
