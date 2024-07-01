@@ -17,7 +17,7 @@ node_modules
 ignition/deployments/chain-31337
 
 # Ignorar a pasta lib onde as dependências serão instaladas
-lib/
+#lib/
 
 # Ignorar a pasta out onde os arquivos compilados são armazenados
 out/
