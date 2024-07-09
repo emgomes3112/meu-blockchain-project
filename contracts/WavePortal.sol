@@ -6,13 +6,21 @@ import "hardhat/console.sol";
 
 contract WavePortal {
     uint256 totalWaves;
+    address[]  public senders;
     constructor() {
         console.log("Helo, World -- Ueba, eu sou um contrato e eu sou inteligente");
+    }
+    
+    function getTotalSenders() public view returns (address[] memory){        
+        console.log("Temos um total de %d remetentes!", senders.length);
+        return senders;
     }
 
     function wave() public {
         totalWaves += 1;
+        senders.push(msg.sender);
         console.log("%s deu tchauzinho!", msg.sender);
+        console.log("Remetente armazenado %d", msg.sender);
     }
 
     function getTotalWaves() public view returns (uint256) {
