@@ -2,25 +2,24 @@
 
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
+import "lib/forge-std/src/console.sol";
 
 contract WavePortal {
     uint256 totalWaves;
-    address[]  public senders;
+    address[] public senders;
     constructor() {
         console.log("Helo, World -- Ueba, eu sou um contrato e eu sou inteligente");
-    }
-    
-    function getTotalSenders() public view returns (address[] memory){        
-        console.log("Temos um total de %d remetentes!", senders.length);
-        return senders;
-    }
+    }     
 
     function wave() public {
         totalWaves += 1;
         senders.push(msg.sender);
         console.log("%s deu tchauzinho!", msg.sender);
-        console.log("Remetente armazenado %d", msg.sender);
+        console.log("Remetente armazenado %d", msg.sender);        
+    }
+     function getTotalSenders() public view returns (address[] memory){        
+        console.log("Temos um total de %d remetentes!", senders.length);
+        return senders;
     }
 
     function getTotalWaves() public view returns (uint256) {
